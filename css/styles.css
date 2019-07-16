@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9fafc;
+    padding-left: 10px;
 }
 
 nav {
@@ -30,7 +31,7 @@ button {
     color: white;
     flex: center;
     border-radius: 50px;
-    
+    height: 30px;
 }
 
 section {
@@ -42,4 +43,6 @@ p {
     color: #69696a;
     border-left: solid #69696a 3px;
     padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
 }
