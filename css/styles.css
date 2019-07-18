@@ -1,48 +1,83 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f9fafc;
-    padding-left: 10px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9fafc;
+  padding-left: 10px;
 }
 
 nav {
-    color: black;
-    text-decoration: none;
-    display:flex;
-    flex-direction: column;
-    margin;
-    width: ;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 #company {
-    padding-bottom: 5px;
-    color: black;
+  padding-bottom: 5px;
+  padding-right: 50%;
+  color: black;
 }
 
 nav a {
-    color: #69696a;
-    text-decoration: none;
-    display:flex;
-    flex-direction: column;
-    padding-bottom: 5px;
+  color: #69696a;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5px;
+  flex-basis: 10%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 button {
-    background-color: black;
-    color: white;
-    flex: center;
-    border-radius: 50px;
-    height: 30px;
+  background-color: black;
+  color: white;
+  flex-direction: bottom;
+  border-radius: 50px;
+  height: 30px;
+  justify-self: center;
 }
 
-section {
-    display:flex;
-    flex-direction: column;
-}
+@media only screen and (min-width: 768px) {
+  .box 
 
-p {
+   p {
     color: #69696a;
     border-left: solid #69696a 3px;
     padding-left: 10px;
     padding-bottom: 10px;
-    margin-top: 0;
+    padding-top: 50%;
+    margin-right: 50px;
+  }
+
+  #circle-1 {
+    background-color: rgba(247, 136, 167, 0.6); /*large circle*/
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 200px;
+    right: 100px;
+  }
+
+  #circle-2 {
+    background-color: rgba(247, 193, 162, 0.7); /*medium circle*/
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    left: 50%;
+  }
+
+  #circle-3 {
+    background-color: rgba(207, 130, 213, 0.6); /*small circle*/
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 75%;
+    right: 0px;
+}
 }
